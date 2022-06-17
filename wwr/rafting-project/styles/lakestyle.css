@@ -1,0 +1,138 @@
+div{
+    max-width: 1600px;
+}
+#content {
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+}
+#hero-msg h1 {
+    text-align: center;
+}
+.camping-card h2, .rapids-card h2 {
+    text-align: center;
+}
+.camping-card h4 {
+    text-align: left;
+}
+.rapids-card h4 {
+    text-align: right;
+} 
+div #background{
+    height: 725px;
+}
+body{
+    background-color: 60615f;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;  
+}
+.join{
+    background-color: 60615f;
+    color: black;
+    text-decoration: none;
+    font-family: Rajdhani, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.join:hover{
+    background-color: #4092b8;
+    color: black;
+}
+#background {
+    background-color: #89bae2;
+}
+footer {
+    background-color: #5c5f59;
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    width: 100px;
+}
+footer h3 {
+    text-decoration: underline;
+}
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.lake1, .lake2, .lake3, .lake4, .lake5 {
+    margin: 200px 0;
+}
+.card-img1, .card-img2, .card-img3, .card-img4, .card-img5 {
+    border: 3px solid black;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#hero {
+    display: grid;
+    margin-top: -100px;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+#card-img1 {
+    width: 1000px;
+    text-align: center;
+} 
+.card-img2, .card-img3, .card-img4, .card-img5 {
+    width: 300px;
+    height: 200px;
+}
+.card-img2, .card-img3 {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
