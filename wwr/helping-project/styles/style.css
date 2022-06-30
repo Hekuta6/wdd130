@@ -1,4 +1,21 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100&family=Press+Start+2P&display=swap');
+:root {
+    --primary-color: #4DA9C2   ;
+    --secondary-color: #8B20B3 ;
+    --accent1-color: #E78300;
+    --accent2-color: #a3aeac;
+    --heading-font: "Press Start 2P";
+    --paragraph-font: Enconde Sans, Helvetica, sans-serif;
+    --headline-color-on-white: #396E94;  
+    --headline-color-on-color: white; 
+    --paragraph-color-on-white: #396E94; 
+    --paragraph-color-on-color: white; 
+    --paragraph-background-color: #396E94  ;
+    --nav-link-color: #396E94;
+    --nav-background-color: #D4AC0D;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #396E94;
+  }
 div{
     max-width: 1600px;
 }
@@ -6,6 +23,7 @@ div{
     margin: 0 auto;
 }
 nav a {
+    font-family: Enconde Sans, Helvetica, sans-serif;
     text-align: center;
     color: black;
     text-align: center;
@@ -22,6 +40,7 @@ div #background{
     height: 725px;
 }
 body{
+    background-color: #4DA9C2;
     margin: 0;
     padding: 0;
 }
@@ -29,13 +48,14 @@ h2 {
     margin: 0;
 }
 header {
+    background-color: #a3aeac;
     display: grid;
     grid-template-columns: 150px auto;  
 }
 
 .book, .join{
     text-decoration: none;
-    font-family: Rajdhani, Helvetica, sans-serif;
+    font-family: Enconde Sans, Helvetica, sans-serif;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
@@ -45,6 +65,7 @@ header {
     color: black;
 }
 footer {
+    background-color: #a3aeac;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -53,13 +74,13 @@ footer {
 }
 .home-title{
     color: black;
-    font-family: Macondo, Helvetica, sans-serif;
+    font-family: "Press Start 2P";
     font-size: 2em;
     margin-top: 10px;
 }
 .msg h2{
     color: black;
-    font-family: Rajdhani, Helvetica, sans-serif;
+    font-family: Enconde Sans, Helvetica, sans-seri;
 }
 .msg p {
     color: black;
